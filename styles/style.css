@@ -19,6 +19,10 @@
 .width{
       max-width: 1140px;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* Header style */
 .head-logo{
     display: flex;
@@ -75,6 +79,27 @@ nav ul a{
 }
 .margin-top{
     margin-top: 120px;
+}
+/* plant style */
+.plant{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.plant-family{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.our-plant{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.plant-item{
+    text-align: center;
+    
 }
 
 
