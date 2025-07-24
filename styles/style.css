@@ -86,6 +86,7 @@ nav ul a{
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 30px;
+    margin-bottom: 210px;
 }
 .plant-family{
     font-weight: bold;
@@ -99,9 +100,23 @@ nav ul a{
 }
 .plant-item{
     text-align: center;
+
     
 }
+.flower-price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+/* button style */
+.btn-primary{
+    background-color: #E95A08;
+    color: white;
+    padding:12px 88px;
+    cursor: pointer;
 
+}
 
 
 
@@ -126,6 +141,25 @@ nav ul a{
     .flower-image{
         align-items: first baseline;
     }
+    .plant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:5px;
+    row-gap: 20px;
+    margin-bottom: 100px;
+}
+.plant-item>img{
+    height:290px ;
+    width:200px ;
+}
+.btn-primary{
+    background-color: #E95A08;
+    color: white;
+    padding:10px 50px;
+    cursor: pointer;
+
+}
+
     
 }
 
