@@ -115,10 +115,45 @@ nav ul a{
     color: white;
     padding:12px 88px;
     cursor: pointer;
+    border: none;
 
 }
-
-
+/* Flower lover Section */
+.flower-lover-heading{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.plant-lover{
+    max-width: 1140px;
+    height: 600px;
+    margin-bottom: 135px; 
+      position: relative;
+}
+.flower-lover{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+  
+}
+.flower-lover-title{
+    width: 540px;
+    height: 600px;
+}
+.flower-title-description{
+    width: 540px;
+    height: 110px;
+}
+   .trusted-seller{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -120px;
+    left: 360px;
+    border-radius: 100%;
+    box-shadow: 3px 3px -2px -2px gray;
+   } 
+ 
 
 
 /* media query mobile respnsive */
@@ -139,22 +174,29 @@ nav ul a{
   align-items: center;
 
 }
+.flower-image{
+    height: 100%;
+    width: 100%;
+}
 
     .flower{
     flex-direction: column-reverse;
     align-items: center;
     margin: 0 auto;
     }
-    /* .flower-image{
+    .flower-image{
         align-items: first baseline;
-    } */
+    }
     .plant{
+       
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap:5px;
+    column-gap:3px;
     row-gap: 20px;
     margin-bottom: 100px;
-}
+    margin: 0 auto;
+    }
+    
 .our-plant{
     text-align: center;
     margin-top: 10px;
@@ -162,7 +204,7 @@ nav ul a{
 }
 .plant-item>img{
     height:250px ;
-   width: auto;
+   width: 195px;
 }
 .btn-primary{
     background-color: #E95A08;
@@ -171,6 +213,30 @@ nav ul a{
     cursor: pointer;
     font-size: 12px;
 
+}
+.flower-lover{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    height: 650px;
+    width: 360px;
+  
+}
+.flower-lover-heading {
+    font-size: 24px;
+}
+.flower-lover-title{
+    align-items: start;
+}
+.flower-store{
+    margin-top: 50px;
+  width: 358px;
+}
+.trusted-seller{
+    display: none;
 }
 
     
