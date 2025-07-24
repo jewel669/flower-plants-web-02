@@ -225,8 +225,14 @@ nav ul a{
     width: 360px;
   
 }
+.flower-title-description {
+    width: 540px;
+     height: 70px;
+     align-items: center;
+}
 .flower-lover-heading {
     font-size: 24px;
+    align-items: center;
 }
 .flower-lover-title{
    text-align: start;
@@ -235,6 +241,7 @@ nav ul a{
     margin-top: 30px;
     height: 400;
     width: 358px;
+    align-items: center;
 }
 .trusted-seller{
     display: none;
