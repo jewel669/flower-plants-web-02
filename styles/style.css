@@ -136,6 +136,10 @@ nav ul a{
     column-gap: 60px;
   
 }
+.flower-store{
+    width: 540px;
+    height: 600px;
+}
 .flower-lover-title{
     width: 540px;
     height: 600px;
@@ -150,14 +154,163 @@ nav ul a{
     position: absolute;
     top: -120px;
     left: 360px;
-    border-radius: 100%;
-    box-shadow: 3px 3px -2px -2px gray;
    } 
+/* latest style */
+.latest-deal{
+    margin-bottom: 120px;
+}
+.latest-title{
+    text-align: center;
+}
+.latest-name {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.latest-plant-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    margin-top: 120px;
+    
+}
+.latest-plant-image>img{
+    size: 100%;
+    border-radius: 15px;
+}
+.ana-text img{
+    border-radius: 15px;
+    row-gap: 40px;
+}
+.bloom-text img{
+    border-radius: 15px;
+    row-gap: 40px;
+}
+.zabo-text img{
+    border-radius: 15px;
+    row-gap: 40px;
+}
+.bloom-ana{
+    display: grid;
+    row-gap: 20px;
+   
+}
+/* added position */
+.bloom-text{
+     position: relative;
+}
+.bloom-image{
+    /* filter: contrast(100%) blur(1px); */
+    filter:brightness(0.60);
+}
+.bloom-shop{
+    position: absolute;
+    top:55px;
+    right:88px ;
+    font-size: 20px;
+}
+ .shop-now{
+      position: absolute;
+    top: 90px;
+    left: 138px;
+    font-size: 16px;
+    text-decoration: underline;
+ }
+
+
+
+
+
+ .ana-text{
+     position: relative;
+}
+.ana-image{
+    /* filter: contrast(100%) blur(1px); */
+    filter:brightness(0.60);
+}
+.ana-shop{
+    position: absolute;
+    top:55px;
+    right:88px ;
+    font-size: 20px;
+}
+ /* .shop-now{
+      position: absolute;
+    top: 90px;
+    left: 138px;
+    font-size: 16px;
+    text-decoration: underline;
+ } */
+
+ .zabo-text{
+     position: relative;
+}
+.zabo-image{
+    /* filter: contrast(100%) blur(1px); */
+    filter:brightness(0.60);
+}
+.zabo-shop{
+    position: absolute;
+    top:130px;
+    right:170px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+ .zabo-now{
+      position: absolute;
+    top: 190px;
+    left: 280px;
+    font-size: 16px;
+    text-decoration: underline;
+    font-size: 28px;
+ }
+/* news letter section */
+.news-letter{
+    width: 100%;
+    height: 540px;
+ 
+}
+#news-letter{
+    /* position: relative; */
+        
+}
+
+/* color full branch */
+.email-type{
+    /* padding: 10px 170px; */
+    height: 50px;
+    width: 645px;
+    border: none;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.colorfull-bunch{
+    text-align: center;
+    font-size: 50px;
+    /* color: white; */
+}
+.subscribe{
+    text-align: center;
+    align-items: center;
+}
+#footer-btn{
+    padding: 19px 50px;
+
+}
+.bunch-email-btn{
+    position: relative;
+    /* top: -400px; */
+    bottom: 400px; 
+}
+
+
+
  
 
 
 /* media query mobile respnsive */
-@media screen and (max-width:576px) {
+/* @media screen and (max-width:576px) {
 
     .head-logo{
     display: flex;
@@ -248,7 +401,7 @@ nav ul a{
 }
 
     
-}
+}  */
 
 
 
