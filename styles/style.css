@@ -296,7 +296,7 @@ button {
   padding: 19px 50px;
 }
 .bunch-email-btn {
-  background-image: url('/assets/news-letter-bg.png');
+  background-image: url(../assets/news-letter-bg.png);
   height: 530px;
   background-repeat: round;
   margin-top: 110px;
@@ -474,14 +474,14 @@ button {
   .zabo-shop {
     position: absolute;
     top: 50px;
-    right: 110px;
+    right: 130px;
     font-size: 20px;
     font-weight: bold;
   }
   .zabo-now {
     position: absolute;
     top: 80px;
-    left: 145px;
+    left: 180px;
     font-size: 16px;
     text-decoration: underline;
     font-size: 18px;
@@ -508,7 +508,7 @@ button {
     left: 40px;
   }
   .email-button{
-    display: flex;
+    /* display: flex; */
   }
   #footer-btn {
     padding: 19px 30px;
