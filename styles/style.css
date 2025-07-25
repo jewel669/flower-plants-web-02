@@ -118,6 +118,9 @@ nav ul a{
     border: none;
 
 }
+button{
+    cursor: pointer;
+}
 /* Flower lover Section */
 .flower-lover-heading{
     font-weight: bold;
@@ -221,6 +224,7 @@ nav ul a{
 
 
 
+
  .ana-text{
      position: relative;
 }
@@ -269,6 +273,7 @@ nav ul a{
 .news-letter{
     width: 100%;
     height: 540px;
+    margin-bottom: ;
  
 }
 #news-letter{
@@ -286,31 +291,109 @@ nav ul a{
     padding-left: 20px;
 }
 .colorfull-bunch{
+    
     text-align: center;
+    /* align-items: center; */
     font-size: 50px;
+    margin-top: 200px;
     /* color: white; */
 }
+/* #colorfull-bunch{
+    margin-top: 200px;
+} */
 .subscribe{
+    /* display: flex; */
+    display: grid;
+    place-items: center;
+    justify-content: center;
     text-align: center;
-    align-items: center;
+    margin-top: 250px;
+    /* align-items: center; */
+    
 }
 #footer-btn{
     padding: 19px 50px;
 
 }
 .bunch-email-btn{
-    position: relative;
-    /* top: -400px; */
-    bottom: 400px; 
+    background-image: url(/assets/news-letter-bg.png);
+    height: 530px;
+    background-repeat: round;
+    margin-top: 110pxpx;
+    
+     
 }
+/* .bunch-email-btn{
+    position: relative;
+    top: -400px;
+    bottom: 400px; 
+    background-image: url(/assets/news-letter-bg.png);
+    height: 530px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: center;
+    background-image: cover;
+    align-items: center;
+    justify-items: center;
+    place-items:center;
+    align-items: center;
+    text-align: center;
+    
+} */
+/* .news{
+    margin-bottom: px;
+} */
 
+/* Footer Section Design */
+.footer-section{
+    max-width: 1120px;
+    height: 250px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 110px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.footer-sc{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     */
+}
+.nav-link>ul{
+    display: flex;
+    flex-direction: column;
+}
+.footer-navbar{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    column-gap:30px;
+}
+.social-link{
+    width: 220px;
+    height: 35px;
+}
+.social-link>ul{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+column-gap: 30px;
 
+}
+.twitter{
+    width: 25px;
+   height: 25px;
+}
+.social-link>ul>li{
+    list-style-type: none;
+}
 
  
 
 
 /* media query mobile respnsive */
-/* @media screen and (max-width:576px) {
+@media screen and (max-width:576px) {
 
     .head-logo{
     display: flex;
@@ -392,16 +475,17 @@ nav ul a{
 }
 .flower-store{
     margin-top: 30px;
-    height: 400;
+    height: 450px;
     width: 358px;
     align-items: center;
 }
 .trusted-seller{
     display: none;
 }
+/* footer section*/
 
     
-}  */
+} 
 
 
 
