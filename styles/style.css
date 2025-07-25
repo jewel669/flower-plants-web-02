@@ -505,7 +505,7 @@ button {
     align-items: center;
     position: absolute;
     bottom: 80px;
-    left: 40px;
+    left: 5px;
   }
   .email-button{
     /* display: flex; */
