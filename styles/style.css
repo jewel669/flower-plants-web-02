@@ -296,7 +296,7 @@ button {
   padding: 19px 50px;
 }
 .bunch-email-btn {
-  background-image: url("/assets/news-letter-bg.png");
+  background-image: url('/assets/news-letter-bg.png');
   height: 530px;
   background-repeat: round;
   margin-top: 110px;
@@ -507,6 +507,9 @@ button {
     bottom: 80px;
     left: 40px;
   }
+  .email-button{
+    display: flex;
+  }
   #footer-btn {
     padding: 19px 30px;
   }
@@ -541,12 +544,15 @@ button {
   display: flex;
   /* grid-template-columns: repeat(1, 1fr); */
   /* flex-direction: column; */
-  column-gap: 30px;
+  column-gap: 10px;
 }
 .footer-navbar{
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.nav-link>ul{
+    row-gap: 35px;
 }
 
 }
